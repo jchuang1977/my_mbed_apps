@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.279285368">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.279285368" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.279285368" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.279285368.1248468044" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.127447262" name="mBed Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.1152867712" name="mBed Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/mbed_contiki_hello}/Release" id="it.baeyens.arduino.sketch.builder.123206169" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="mBed sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.661839059" name="mBed C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.379235639" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X/TOOLCHAIN_GCC_ARM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/cfs}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/lib}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/lib/strncasecmp}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ip}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv4}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv6}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv6/multicast}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac/contikimac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac/sicslowmac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/rime}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/rpl}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/sys}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768/radio}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed/slip-driver}&quot;"/></option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.1351912901" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.77289215" name="mBed C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.797065726" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/core/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X/TOOLCHAIN_GCC_ARM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/cfs}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/lib}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/lib/strncasecmp}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ip}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv4}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv6}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/ipv6/multicast}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac/contikimac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/mac/sicslowmac}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/rime}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/net/rpl}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-base/core/sys}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/cpu/lpc1768/radio}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed/dev}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_contiki_hello/Libraries/mbed-contiki-mbed-lpc1768/platform/mbed/slip-driver}&quot;"/></option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.2129127472" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.s.1987296750" name="mBed Assembler" superClass="it.baeyens.arduino.tool.sketch.compiler.s"/>
+							<tool id="it.baeyens.arduino.tool.ar.482399913" name="mBed archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.118258723" name="mBed combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.516345252" name="mBed tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.1074370939" name="mBed tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash2.1471148961" name="mBed tool Create bin" superClass="it.baeyens.arduino.tool.objcopy.flash2"/>
+							<tool id="it.baeyens.arduino.tool.size.2082630209" name="mBed tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Libraries/*/?xamples" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="mbed_contiki_hello.null.574422135" name="mbed_contiki_hello"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.921045416">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.921045416" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.921045416" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.921045416.1634165675" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.1171884192" name="mBed Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.294177849" name="mBed Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/mbed_802154}/Release" id="it.baeyens.arduino.sketch.builder.2110221977" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="mBed sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.1638428643" name="mBed C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.37586273" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X/TOOLCHAIN_GCC_ARM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/Libraries/mbed-MxRadioRF2xx}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/Libraries/mbed-MxRadioRF2xx/uracolib}&quot;"/></option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.719880918" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.66400639" name="mBed C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.1743246698" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/core/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/cmsis/TARGET_NXP/TARGET_LPC176X/TOOLCHAIN_GCC_ARM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/mBed/variant/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/Libraries/mbed-MxRadioRF2xx}&quot;"/><listOptionValue builtIn="false" value="&quot;${workspace_loc:/mbed_802154/Libraries/mbed-MxRadioRF2xx/uracolib}&quot;"/></option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.73449083" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.s.1576643997" name="mBed Assembler" superClass="it.baeyens.arduino.tool.sketch.compiler.s"/>
+							<tool id="it.baeyens.arduino.tool.ar.1353830062" name="mBed archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.2024107516" name="mBed combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.1463957892" name="mBed tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.1626990020" name="mBed tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash2.210415944" name="mBed tool Create bin" superClass="it.baeyens.arduino.tool.objcopy.flash2"/>
+							<tool id="it.baeyens.arduino.tool.size.796237927" name="mBed tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Libraries/*/?xamples" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="mbed_802154.null.1945786919" name="mbed_802154"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
